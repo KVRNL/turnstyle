@@ -72,23 +72,40 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
-**v1.0.5** — 2026-07-04
-  - Track library — a searchable browser at the bottom of the app. Add individual tracks or a whole folder, then load any track to Deck A or B with one click. BPM fills in once a track has been played, and your library is saved between sessions.
+**v1.0.10** — 2026-09-25
+  - Your cue points now stick: the cue point, hot cues and any BPM fixes are saved for every track, so a track you've prepared comes back ready to play. Set a hot cue while a loop is running and the pad saves the loop (it lights amber) — press it to jump straight back into that loop.
+  - Headphone cueing: press the headphone button under a channel on the mixer to hear that deck before the crowd does. Pick your speakers and headphones in Settings › Audio & Decks, or choose Split to use one pair of headphones — the deck you're cueing in one ear, the mix in the other. CUE/MIX and PHONES knobs set what you hear and how loud.
+  - Smarter beatmatching: every deck has its own SYNC, and it now lines up the beats as well as the tempo. TAP along to set the BPM by hand, ÷2 and ×2 fix a BPM that reads half or double speed, the − and + buttons nudge a deck to line up beats by ear, and a light by the BPM flashes on every beat. Tempo detection is more accurate too.
+  - Real scratching: drag the platter and you hear the record move with your hand — forwards, backwards, fast or slow — and when you let go it carries on right in time. New BRAKE and BACKSPIN buttons stop a track like a real turntable.
+  - Auto DJ: press “+ Up Next” on tracks in your library and switch on AUTO DJ — Turnstyle mixes them for you, loading each next track, matching the tempo, lining up the beats and crossfading at the end. Grab the crossfader any time to take over, and set the transition length in Settings.
+  - New keyboard shortcuts: W and O sync, Z/X and ,/. nudge the pitch, 1–4 and 7–0 fire hot cues (Shift clears one), and T taps the tempo. The full list is in Settings › Keyboard.
+  - Jumping to a cue or hot cue is now click-free, and the record on the platter stays where it stopped when you pause instead of jumping back.
 
-**v1.0.4** — 2026-07-04
-  - MIDI controller support — connect a DJ controller and map its knobs, faders, and buttons to Turnstyle with MIDI Learn (Settings → Controllers). Works with any controller; mappings are saved automatically.
-  - (Jog-wheel scratching over MIDI isn't supported yet.)
+**v1.0.9** — 2026-09-06
+  - The whole rig has been relaid out so everything fits on screen at any window size — no more controls hiding under the library bar — and the platters grow to fill bigger displays.
+  - Real rotary knobs for Gain, EQ, Filter and FX Wet: drag up or down, hold Shift for fine control, scroll to nudge, double-click to reset. The label shows the exact value while you turn it.
+  - A proper mixer strip in the middle: channel faders for A and B either side of a Master fader, with segmented VU meters, SYNC and the crossfader below.
+  - Vertical pitch faders beside each platter, with a centre mark and a Reset button. Top is slower, bottom is faster, like the real thing.
+  - Hot cues and beat loops now sit side by side, the track clock is overlaid on the waveform, and the deck you're controlling with the keyboard is highlighted.
 
-**v1.0.3** — 2026-07-04
-  - Beat loops per deck — one-tap 1, 2, 4, or 8-beat loops that lock to the track's BPM; tap again to resize or exit.
-  - Record your mix — a REC button in the top bar captures the full master output and saves it to a file.
+**v1.0.8** — 2026-09-06
+  - Settings has been rebuilt from the ground up: sections down the left side (General, Audio & Decks, Controllers, Keyboard, Account, Support, About), status lights that show what's going on, and every change saves the moment you make it.
+  - New Audio & Decks settings: pick a crossfader curve (Smooth for long blends, Linear, or Cut for scratching), choose the pitch range (±8%, ±16% or ±50%), and set the master volume. All three are remembered between sessions.
+  - Updates now show a download progress bar, and the settings gear lights up when a new version is ready to install.
+  - A Keyboard page lists every shortcut and mouse gesture, and Account shows your license status at a glance.
+  - About now shows What's New — the release notes for every version, with the one you're on marked.
 
-**v1.0.2** — 2026-07-04
-  - Bigger mixer per deck: a Gain/trim control, a Filter sweep knob (low-pass ↔ high-pass), and an FX unit with Echo and Reverb plus a wet control.
-  - Added 4 hot-cue pads per deck — set a cue on the fly and jump back instantly, with markers shown on the waveform.
+**v1.0.7** — 2026-09-05
+  - Fixed the pitch fader drifting the playhead: moving pitch while a track played threw off the waveform position and time display, and pause/resume could jump.
+  - SYNC now matches deck B to deck A's actual playing tempo, including A's pitch setting, so the decks really line up.
+  - Keyboard shortcuts no longer fire while typing in the Report a Problem form or while Settings is open, and holding a key no longer stutters play or cue.
+  - The CUE button no longer sticks lit after using the A or L keys, and jumping to cue now leaves an active loop like hot cues do.
+  - Dropping a track just outside a deck no longer replaces the app with a blank file page.
+  - If an update finishes downloading before the app opens, Settings now shows Restart & Install right away.
 
-**v1.0.1** — 2026-06-30
-  - Latest build — improvements and fixes.
+**v1.0.6** — 2026-08-18
+  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
+  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
 
 Full history → **[kvrnl.io/changelog/turnstyle](https://kvrnl.io/changelog/turnstyle/)**
 
