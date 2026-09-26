@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.12** — 2026-09-25
+  - Turnstyle can now tell KVRNL which features get used and for how long, plus any errors, so we know what to improve next. It never includes your music, file names or anything you type, and you can switch it off any time in Settings › General › Share usage statistics.
+  - Your license check now also notes which version of Turnstyle you're running, so we can tell when everyone has the latest fixes.
+
 **v1.0.11** — 2026-09-25
   - A brand-new activation window: paste your key (there's a Paste button), press Activate, and clear messages tell you exactly what to do if something's wrong.
   - New to Turnstyle? The activation window now walks you through getting your free key: create a free KVRNL account, claim Turnstyle, then paste the key. A button takes you straight there, and it works the same wherever you downloaded Turnstyle from.
@@ -101,14 +105,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Updates now show a download progress bar, and the settings gear lights up when a new version is ready to install.
   - A Keyboard page lists every shortcut and mouse gesture, and Account shows your license status at a glance.
   - About now shows What's New — the release notes for every version, with the one you're on marked.
-
-**v1.0.7** — 2026-09-05
-  - Fixed the pitch fader drifting the playhead: moving pitch while a track played threw off the waveform position and time display, and pause/resume could jump.
-  - SYNC now matches deck B to deck A's actual playing tempo, including A's pitch setting, so the decks really line up.
-  - Keyboard shortcuts no longer fire while typing in the Report a Problem form or while Settings is open, and holding a key no longer stutters play or cue.
-  - The CUE button no longer sticks lit after using the A or L keys, and jumping to cue now leaves an active loop like hot cues do.
-  - Dropping a track just outside a deck no longer replaces the app with a blank file page.
-  - If an update finishes downloading before the app opens, Settings now shows Restart & Install right away.
 
 Full history → **[kvrnl.io/changelog/turnstyle](https://kvrnl.io/changelog/turnstyle/)**
 
