@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.13** — 2026-09-26
+  - Usage statistics now include basic facts about your PC - Windows version, processor, memory, screens, graphics, language and time zone - so we know what to test Turnstyle on. They still never include your music, file names or anything you type, and you can switch them off any time in Settings › General › Share usage statistics.
+  - Feature use and any errors are now reported more clearly, and busy DJ sets send less.
+
 **v1.0.12** — 2026-09-25
   - Turnstyle can now tell KVRNL which features get used and for how long, plus any errors, so we know what to improve next. It never includes your music, file names or anything you type, and you can switch it off any time in Settings › General › Share usage statistics.
   - Your license check now also notes which version of Turnstyle you're running, so we can tell when everyone has the latest fixes.
@@ -98,13 +102,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - A proper mixer strip in the middle: channel faders for A and B either side of a Master fader, with segmented VU meters, SYNC and the crossfader below.
   - Vertical pitch faders beside each platter, with a centre mark and a Reset button. Top is slower, bottom is faster, like the real thing.
   - Hot cues and beat loops now sit side by side, the track clock is overlaid on the waveform, and the deck you're controlling with the keyboard is highlighted.
-
-**v1.0.8** — 2026-09-06
-  - Settings has been rebuilt from the ground up: sections down the left side (General, Audio & Decks, Controllers, Keyboard, Account, Support, About), status lights that show what's going on, and every change saves the moment you make it.
-  - New Audio & Decks settings: pick a crossfader curve (Smooth for long blends, Linear, or Cut for scratching), choose the pitch range (±8%, ±16% or ±50%), and set the master volume. All three are remembered between sessions.
-  - Updates now show a download progress bar, and the settings gear lights up when a new version is ready to install.
-  - A Keyboard page lists every shortcut and mouse gesture, and Account shows your license status at a glance.
-  - About now shows What's New — the release notes for every version, with the one you're on marked.
 
 Full history → **[kvrnl.io/changelog/turnstyle](https://kvrnl.io/changelog/turnstyle/)**
 
