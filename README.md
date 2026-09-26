@@ -71,6 +71,14 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.11** — 2026-09-25
+  - A brand-new activation window: paste your key (there's a Paste button), press Activate, and clear messages tell you exactly what to do if something's wrong.
+  - New to Turnstyle? The activation window now walks you through getting your free key: create a free KVRNL account, claim Turnstyle, then paste the key. A button takes you straight there, and it works the same wherever you downloaded Turnstyle from.
+  - At startup, Turnstyle now tells you when it's checking your license instead of showing nothing.
+  - If KVRNL's servers are busy or down, Turnstyle keeps working and simply checks again later. It no longer mistakes an outage for an invalid key.
+  - Keys are tidied up for you when you paste them: extra spaces, line breaks, odd dashes and words copied along with the key are ignored.
+  - Stronger license protection, so every copy of Turnstyle is properly activated.
+
 **v1.0.10** — 2026-09-25
   - Your cue points now stick: the cue point, hot cues and any BPM fixes are saved for every track, so a track you've prepared comes back ready to play. Set a hot cue while a loop is running and the pad saves the loop (it lights amber) — press it to jump straight back into that loop.
   - Headphone cueing: press the headphone button under a channel on the mixer to hear that deck before the crowd does. Pick your speakers and headphones in Settings › Audio & Decks, or choose Split to use one pair of headphones — the deck you're cueing in one ear, the mix in the other. CUE/MIX and PHONES knobs set what you hear and how loud.
@@ -101,10 +109,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - The CUE button no longer sticks lit after using the A or L keys, and jumping to cue now leaves an active loop like hot cues do.
   - Dropping a track just outside a deck no longer replaces the app with a blank file page.
   - If an update finishes downloading before the app opens, Settings now shows Restart & Install right away.
-
-**v1.0.6** — 2026-08-18
-  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
-  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
 
 Full history → **[kvrnl.io/changelog/turnstyle](https://kvrnl.io/changelog/turnstyle/)**
 
